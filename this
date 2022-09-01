@@ -98,7 +98,7 @@ local W = Instance.new("TextLabel")
 local X = Instance.new("TextLabel")
 local Y = Instance.new("TextLabel")
 local Z = Instance.new("TextLabel")
-local Sound = Instance.new("Sound")
+
 --Properties:
 
 Chatart.Name = "Chatart"
@@ -135,7 +135,6 @@ TextLabel.TextWrapped = true
 
 UICorner_2.CornerRadius = UDim.new(0, 2)
 UICorner_2.Parent = TextLabel
-
 
 ImageLabel_2.Parent = TextLabel
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -775,13 +774,8 @@ Z.TextColor3 = Color3.fromRGB(0, 0, 0)
 Z.TextSize = 14.000
 
 -- Scripts:
-Sound.Volume = 1.5
-Sound.PlaybackSpeed = 0.9
-Sound.SoundId = "rbxassetid://8784885431"
-Sound.Parent = Notify
-Sound.Name = "Sound"
 
-local function JSJDG_fake_script() -- TextLabel.Smooth GUI Dragging 
+local function LFJRWOG_fake_script() -- TextLabel.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -838,16 +832,16 @@ local function JSJDG_fake_script() -- TextLabel.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(JSJDG_fake_script)()
-local function JEDON_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(LFJRWOG_fake_script)()
+local function IONLIY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(JEDON_fake_script)()
-local function DGXKUO_fake_script() -- Button.LocalScript 
+coroutine.wrap(IONLIY_fake_script)()
+local function NLUMLLJ_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1136,8 +1130,8 @@ local function DGXKUO_fake_script() -- Button.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DGXKUO_fake_script)()
-local function LYEY_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(NLUMLLJ_fake_script)()
+local function EYINZFA_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1426,8 +1420,8 @@ local function LYEY_fake_script() -- Button_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LYEY_fake_script)()
-local function KXNGTY_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(EYINZFA_fake_script)()
+local function HOUD_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1716,8 +1710,8 @@ local function KXNGTY_fake_script() -- Button_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(KXNGTY_fake_script)()
-local function POUJ_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(HOUD_fake_script)()
+local function SBWOUOZ_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2006,8 +2000,8 @@ local function POUJ_fake_script() -- Button_4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(POUJ_fake_script)()
-local function IJNMJS_fake_script() -- ExecutableSkins_2.LocalScript 
+coroutine.wrap(SBWOUOZ_fake_script)()
+local function UCTBRUG_fake_script() -- ExecutableSkins_2.LocalScript 
 	local script = Instance.new('LocalScript', ExecutableSkins_2)
 
 	
@@ -2019,8 +2013,8 @@ local function IJNMJS_fake_script() -- ExecutableSkins_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(IJNMJS_fake_script)()
-local function MSPMOE_fake_script() -- Credits_2.LocalScript 
+coroutine.wrap(UCTBRUG_fake_script)()
+local function NDPVM_fake_script() -- Credits_2.LocalScript 
 	local script = Instance.new('LocalScript', Credits_2)
 
 	
@@ -2032,8 +2026,8 @@ local function MSPMOE_fake_script() -- Credits_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(MSPMOE_fake_script)()
-local function FPER_fake_script() -- TextLabel_6.Smooth GUI Dragging 
+coroutine.wrap(NDPVM_fake_script)()
+local function QQMOOSI_fake_script() -- TextLabel_6.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2090,8 +2084,8 @@ local function FPER_fake_script() -- TextLabel_6.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(FPER_fake_script)()
-local function KEPPBVJ_fake_script() -- Exit.LocalScript 
+coroutine.wrap(QQMOOSI_fake_script)()
+local function GMWO_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2102,8 +2096,8 @@ local function KEPPBVJ_fake_script() -- Exit.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(KEPPBVJ_fake_script)()
-local function NPCCIE_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GMWO_fake_script)()
+local function BIIVD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2122,8 +2116,6 @@ local function NPCCIE_fake_script() -- TextButton_2.LocalScript
 			local TweenService = game:GetService("TweenService")
 			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
 			PartTween:Play()
-			wait(0.1)
-			NewNotify.Sound:Play()
 			wait(4)
 			local TweenService2 = game:GetService("TweenService")
 			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
@@ -2146,9 +2138,7 @@ local function NPCCIE_fake_script() -- TextButton_2.LocalScript
 			local TweenService = game:GetService("TweenService")
 			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
 			PartTween:Play()
-			wait(0.1)
-			NewNotify.Sound:Play()
-			wait(3)
+			wait(2.4)
 			local TweenService2 = game:GetService("TweenService")
 			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
 			PartTween2:Play()
@@ -2160,8 +2150,8 @@ local function NPCCIE_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NPCCIE_fake_script)()
-local function VPTPKOL_fake_script() -- ImageLabel_5.LocalScript 
+coroutine.wrap(BIIVD_fake_script)()
+local function OLPIX_fake_script() -- ImageLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_5)
 
 	local frame = script.Parent
@@ -2179,8 +2169,8 @@ local function VPTPKOL_fake_script() -- ImageLabel_5.LocalScript
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	frame.Image = content
 end
-coroutine.wrap(VPTPKOL_fake_script)()
-local function TEWBCS_fake_script() -- ImageLabel_6.Match 
+coroutine.wrap(OLPIX_fake_script)()
+local function ITQHIC_fake_script() -- ImageLabel_6.Match 
 	local script = Instance.new('LocalScript', ImageLabel_6)
 
 	while true do
@@ -2188,8 +2178,8 @@ local function TEWBCS_fake_script() -- ImageLabel_6.Match
 		script.Parent.ImageTransparency = script.Parent.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(TEWBCS_fake_script)()
-local function TPFJY_fake_script() -- Title.Match 
+coroutine.wrap(ITQHIC_fake_script)()
+local function DTDEY_fake_script() -- Title.Match 
 	local script = Instance.new('LocalScript', Title)
 
 	while true do
@@ -2198,8 +2188,8 @@ local function TPFJY_fake_script() -- Title.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(TPFJY_fake_script)()
-local function VQXDXWP_fake_script() -- Desc.Match 
+coroutine.wrap(DTDEY_fake_script)()
+local function HHGJKD_fake_script() -- Desc.Match 
 	local script = Instance.new('LocalScript', Desc)
 
 	while true do
@@ -2208,17 +2198,17 @@ local function VQXDXWP_fake_script() -- Desc.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(VQXDXWP_fake_script)()
-local function CSCWUNU_fake_script() -- Notify.LocalScript 
+coroutine.wrap(HHGJKD_fake_script)()
+local function TECWEC_fake_script() -- Notify.LocalScript 
 	local script = Instance.new('LocalScript', Notify)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(CSCWUNU_fake_script)()
+coroutine.wrap(TECWEC_fake_script)()
 -- Exit_2.LocalScript is disabled.
-local function FKDZYH_fake_script() -- Exit_2.Match 
+local function AQFHOS_fake_script() -- Exit_2.Match 
 	local script = Instance.new('LocalScript', Exit_2)
 
 	while true do
@@ -2230,12 +2220,12 @@ local function FKDZYH_fake_script() -- Exit_2.Match
 		script.Parent.TextTransparency = Val
 	end
 end
-coroutine.wrap(FKDZYH_fake_script)()
-local function NHOOWP_fake_script() -- Chatart.LocalScript 
+coroutine.wrap(AQFHOS_fake_script)()
+local function OLHG_fake_script() -- Chatart.LocalScript 
 	local script = Instance.new('LocalScript', Chatart)
 
 	wait(0.1)
 	script.Parent.MainFrame.Visible = false
 	script.Parent.Verifacation.Visible = true
 end
-coroutine.wrap(NHOOWP_fake_script)()
+coroutine.wrap(OLHG_fake_script)()
