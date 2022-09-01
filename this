@@ -1,0 +1,2327 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Chatart = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Section = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local ExecutableSkins = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Key = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Button_3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Button_4 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Backgrounds = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Image = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local Button_5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Credits = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local List = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local ExecutableSkins_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Backgrounds_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Credits_2 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Verifacation = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local Exit = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Key_2 = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local Text = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_27 = Instance.new("UICorner")
+local Notifications = Instance.new("Frame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local Notify = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_29 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local Desc = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local Exit_2 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Alphabet = Instance.new("Frame")
+local A = Instance.new("TextLabel")
+local B = Instance.new("TextLabel")
+local C = Instance.new("TextLabel")
+local D = Instance.new("TextLabel")
+local E = Instance.new("TextLabel")
+local F = Instance.new("TextLabel")
+local G = Instance.new("TextLabel")
+local H = Instance.new("TextLabel")
+local I = Instance.new("TextLabel")
+local J = Instance.new("TextLabel")
+local K = Instance.new("TextLabel")
+local L = Instance.new("TextLabel")
+local M = Instance.new("TextLabel")
+local O = Instance.new("TextLabel")
+local P = Instance.new("TextLabel")
+local Q = Instance.new("TextLabel")
+local R = Instance.new("TextLabel")
+local S = Instance.new("TextLabel")
+local T = Instance.new("TextLabel")
+local U = Instance.new("TextLabel")
+local V = Instance.new("TextLabel")
+local W = Instance.new("TextLabel")
+local X = Instance.new("TextLabel")
+local Y = Instance.new("TextLabel")
+local Z = Instance.new("TextLabel")
+
+--Properties:
+
+Chatart.Name = "Chatart"
+Chatart.Parent = game:FindFirstChild("CoreGui")
+Chatart.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Chatart
+MainFrame.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+MainFrame.Position = UDim2.new(0.5, -179, 0.5, -146)
+MainFrame.Size = UDim2.new(0, 358, 0, 293)
+
+UICorner.CornerRadius = UDim.new(0, 2)
+UICorner.Parent = MainFrame
+
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(1, -271, 1, -265)
+ImageLabel.Size = UDim2.new(0, 271, 0, 265)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ImageLabel.ImageTransparency = 1.000
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel.Size = UDim2.new(0, 358, 0, 28)
+TextLabel.Font = Enum.Font.Sarpanch
+TextLabel.Text = "Chat Art Remake V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = TextLabel
+
+ImageLabel_2.Parent = TextLabel
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_2.Image = "rbxassetid://10159275099"
+
+TextButton.Parent = MainFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 131, 43)
+TextButton.Position = UDim2.new(0.924580991, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 27, 0, 28)
+TextButton.Font = Enum.Font.Sarpanch
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = TextButton
+
+Section.Name = "Section"
+Section.Parent = MainFrame
+Section.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Section.Position = UDim2.new(1, -271, 1, -265)
+Section.Size = UDim2.new(0, 271, 0, 265)
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = Section
+
+ExecutableSkins.Name = "Executable Skins"
+ExecutableSkins.Parent = Section
+ExecutableSkins.Active = true
+ExecutableSkins.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutableSkins.BackgroundTransparency = 1.000
+ExecutableSkins.BorderSizePixel = 0
+ExecutableSkins.Position = UDim2.new(1, -271, 1, -265)
+ExecutableSkins.Size = UDim2.new(0, 271, 0, 265)
+ExecutableSkins.Visible = false
+ExecutableSkins.CanvasSize = UDim2.new(0, 0, 4, 0)
+ExecutableSkins.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+ExecutableSkins.ScrollBarThickness = 8
+
+UIListLayout.Parent = ExecutableSkins
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextLabel_2.Parent = ExecutableSkins
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_2.Size = UDim2.new(0, 271, 0, 28)
+TextLabel_2.Font = Enum.Font.Sarpanch
+TextLabel_2.Text = "Prefix"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 2)
+UICorner_5.Parent = TextLabel_2
+
+Key.Name = "Key"
+Key.Parent = ExecutableSkins
+Key.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Key.Position = UDim2.new(-0.0221402217, 0, 0.0792452842, 0)
+Key.Size = UDim2.new(0, 271, 0, 27)
+Key.Font = Enum.Font.Sarpanch
+Key.PlaceholderText = "Put my prefix before executing!"
+Key.Text = "."
+Key.TextColor3 = Color3.fromRGB(255, 255, 255)
+Key.TextScaled = true
+Key.TextSize = 14.000
+Key.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 2)
+UICorner_6.Parent = Key
+
+Button.Name = "Button"
+Button.Parent = ExecutableSkins
+Button.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Button.Position = UDim2.new(0, 0, 0.019811321, 0)
+Button.Size = UDim2.new(0, 271, 0, 21)
+Button.Font = Enum.Font.Sarpanch
+Button.Text = "Normal"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 2)
+UICorner_7.Parent = Button
+
+Button_2.Name = "Button"
+Button_2.Parent = ExecutableSkins
+Button_2.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Button_2.Position = UDim2.new(0, 0, 0.019811321, 0)
+Button_2.Size = UDim2.new(0, 271, 0, 21)
+Button_2.Font = Enum.Font.Sarpanch
+Button_2.Text = "Black And White Squares"
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 2)
+UICorner_8.Parent = Button_2
+
+Button_3.Name = "Button"
+Button_3.Parent = ExecutableSkins
+Button_3.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Button_3.Position = UDim2.new(0, 0, 0.019811321, 0)
+Button_3.Size = UDim2.new(0, 271, 0, 21)
+Button_3.Font = Enum.Font.Sarpanch
+Button_3.Text = "Cubed"
+Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.TextScaled = true
+Button_3.TextSize = 14.000
+Button_3.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 2)
+UICorner_9.Parent = Button_3
+
+Button_4.Name = "Button"
+Button_4.Parent = ExecutableSkins
+Button_4.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Button_4.Position = UDim2.new(0, 0, 0.019811321, 0)
+Button_4.Size = UDim2.new(0, 271, 0, 21)
+Button_4.Font = Enum.Font.Sarpanch
+Button_4.Text = "Less Spaced Cubed"
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextScaled = true
+Button_4.TextSize = 14.000
+Button_4.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 2)
+UICorner_10.Parent = Button_4
+
+Backgrounds.Name = "Backgrounds"
+Backgrounds.Parent = Section
+Backgrounds.Active = true
+Backgrounds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Backgrounds.BackgroundTransparency = 1.000
+Backgrounds.BorderSizePixel = 0
+Backgrounds.Position = UDim2.new(1, -271, 1, -265)
+Backgrounds.Size = UDim2.new(0, 271, 0, 265)
+Backgrounds.Visible = false
+Backgrounds.CanvasSize = UDim2.new(0, 0, 4, 0)
+Backgrounds.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+Backgrounds.ScrollBarThickness = 8
+
+UIListLayout_2.Parent = Backgrounds
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+Image.Name = "Image"
+Image.Parent = Backgrounds
+Image.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Image.Position = UDim2.new(-0.0221402217, 0, 0.0792452842, 0)
+Image.Size = UDim2.new(0, 271, 0, 27)
+Image.ClearTextOnFocus = false
+Image.Font = Enum.Font.Sarpanch
+Image.PlaceholderText = "Enter your Image ID"
+Image.Text = ""
+Image.TextColor3 = Color3.fromRGB(255, 255, 255)
+Image.TextScaled = true
+Image.TextSize = 14.000
+Image.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 2)
+UICorner_11.Parent = Image
+
+Button_5.Name = "Button"
+Button_5.Parent = Backgrounds
+Button_5.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+Button_5.Position = UDim2.new(0, 0, 0.019811321, 0)
+Button_5.Size = UDim2.new(0, 271, 0, 21)
+Button_5.Font = Enum.Font.Sarpanch
+Button_5.Text = "Start!"
+Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 2)
+UICorner_12.Parent = Button_5
+
+Credits.Name = "Credits"
+Credits.Parent = Section
+Credits.Active = true
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(1, -271, 1, -265)
+Credits.Size = UDim2.new(0, 271, 0, 265)
+Credits.Visible = false
+Credits.CanvasSize = UDim2.new(0, 0, 4, 0)
+Credits.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
+Credits.ScrollBarThickness = 8
+
+UIListLayout_3.Parent = Credits
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_3.Size = UDim2.new(0, 271, 0, 28)
+TextLabel_3.Font = Enum.Font.Sarpanch
+TextLabel_3.Text = "Oreo"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 2)
+UICorner_13.Parent = TextLabel_3
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_4.Size = UDim2.new(0, 271, 0, 28)
+TextLabel_4.Font = Enum.Font.Sarpanch
+TextLabel_4.Text = "LabGuy94"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 2)
+UICorner_14.Parent = TextLabel_4
+
+TextLabel_5.Parent = Credits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_5.Position = UDim2.new(0, 0, 0.211320758, 0)
+TextLabel_5.Size = UDim2.new(0, 271, 0, 52)
+TextLabel_5.Font = Enum.Font.Sarpanch
+TextLabel_5.Text = "LabGuy94 Didnt help with the Remake he made the OG script"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 2)
+UICorner_15.Parent = TextLabel_5
+
+List.Name = "List"
+List.Parent = MainFrame
+List.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+List.BackgroundTransparency = 1.000
+List.Position = UDim2.new(0, 0, 1, -265)
+List.Size = UDim2.new(0, 87, 0, 265)
+
+UICorner_16.CornerRadius = UDim.new(0, 2)
+UICorner_16.Parent = List
+
+UIListLayout_4.Parent = List
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 2)
+
+ExecutableSkins_2.Name = "Executable Skins"
+ExecutableSkins_2.Parent = List
+ExecutableSkins_2.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+ExecutableSkins_2.Size = UDim2.new(0, 87, 0, 21)
+ExecutableSkins_2.Font = Enum.Font.Sarpanch
+ExecutableSkins_2.Text = "Executable Skins"
+ExecutableSkins_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecutableSkins_2.TextScaled = true
+ExecutableSkins_2.TextSize = 14.000
+ExecutableSkins_2.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 2)
+UICorner_17.Parent = ExecutableSkins_2
+
+Backgrounds_2.Name = "Backgrounds"
+Backgrounds_2.Parent = List
+Backgrounds_2.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+Backgrounds_2.Size = UDim2.new(0, 87, 0, 21)
+Backgrounds_2.Font = Enum.Font.Sarpanch
+Backgrounds_2.Text = "Backgrounds"
+Backgrounds_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Backgrounds_2.TextScaled = true
+Backgrounds_2.TextSize = 14.000
+Backgrounds_2.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 2)
+UICorner_18.Parent = Backgrounds_2
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = List
+Credits_2.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
+Credits_2.Size = UDim2.new(0, 87, 0, 21)
+Credits_2.Font = Enum.Font.Sarpanch
+Credits_2.Text = "Credits"
+Credits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.TextScaled = true
+Credits_2.TextSize = 14.000
+Credits_2.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 2)
+UICorner_19.Parent = Credits_2
+
+Verifacation.Name = "Verifacation"
+Verifacation.Parent = Chatart
+Verifacation.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+Verifacation.Position = UDim2.new(0.5, -179, 0.5, -146)
+Verifacation.Size = UDim2.new(0, 358, 0, 293)
+Verifacation.Visible = false
+
+UICorner_20.CornerRadius = UDim.new(0, 2)
+UICorner_20.Parent = Verifacation
+
+TextLabel_6.Parent = Verifacation
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_6.Size = UDim2.new(0, 358, 0, 28)
+TextLabel_6.Font = Enum.Font.Sarpanch
+TextLabel_6.Text = "Chat Art Remake V1 [LOGIN]"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 2)
+UICorner_21.Parent = TextLabel_6
+
+ImageLabel_3.Parent = TextLabel_6
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_3.Image = "rbxassetid://10159275099"
+
+Exit.Name = "Exit"
+Exit.Parent = Verifacation
+Exit.BackgroundColor3 = Color3.fromRGB(255, 131, 43)
+Exit.Position = UDim2.new(0.924580991, 0, 0, 0)
+Exit.Size = UDim2.new(0, 27, 0, 28)
+Exit.Font = Enum.Font.Sarpanch
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 2)
+UICorner_22.Parent = Exit
+
+TextButton_2.Parent = Verifacation
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 131, 43)
+TextButton_2.Position = UDim2.new(0.237430155, 0, 0.853242278, 0)
+TextButton_2.Size = UDim2.new(0, 188, 0, 28)
+TextButton_2.Font = Enum.Font.Sarpanch
+TextButton_2.Text = "Enter"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 2)
+UICorner_23.Parent = TextButton_2
+
+Key_2.Name = "Key"
+Key_2.Parent = Verifacation
+Key_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Key_2.Position = UDim2.new(0.203910619, 0, 0.658703089, 0)
+Key_2.Size = UDim2.new(0, 209, 0, 34)
+Key_2.Font = Enum.Font.Sarpanch
+Key_2.PlaceholderText = "Im a empty keybox"
+Key_2.Text = ""
+Key_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Key_2.TextScaled = true
+Key_2.TextSize = 14.000
+Key_2.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 2)
+UICorner_24.Parent = Key_2
+
+Text.Name = "Text"
+Text.Parent = Verifacation
+Text.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+Text.Position = UDim2.new(0.164166331, 0, 0.192451656, 0)
+Text.Size = UDim2.new(0, 239, 0, 28)
+Text.Font = Enum.Font.Sarpanch
+Text.Text = "To continue using Chat Art you will have to get a key"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 2)
+UICorner_25.Parent = Text
+
+Info.Name = "Info"
+Info.Parent = Verifacation
+Info.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+Info.Position = UDim2.new(0.161373034, 0, 0.318731517, 0)
+Info.Size = UDim2.new(0, 239, 0, 23)
+Info.Font = Enum.Font.Sarpanch
+Info.Text = "Oreo#6725 On"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 2)
+UICorner_26.Parent = Info
+
+ImageLabel_4.Parent = Info
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.77405858, 0, 0, 0)
+ImageLabel_4.Size = UDim2.new(0, 24, 0, 23)
+ImageLabel_4.Image = "rbxassetid://8387379647"
+
+ImageLabel_5.Parent = Verifacation
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(0.399441332, 0, 0.430034131, 0)
+ImageLabel_5.Size = UDim2.new(0, 63, 0, 57)
+ImageLabel_5.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_27.CornerRadius = UDim.new(0, 2)
+UICorner_27.Parent = ImageLabel_5
+
+Notifications.Name = "Notifications"
+Notifications.Parent = Chatart
+Notifications.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Notifications.BackgroundTransparency = 1.000
+Notifications.Position = UDim2.new(1, -266, 1, -817)
+Notifications.Size = UDim2.new(0, 266, 0, 817)
+
+UIListLayout_5.Parent = Notifications
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.VerticalAlignment = Enum.VerticalAlignment.Bottom
+
+Notify.Name = "Notify"
+Notify.Parent = Chatart
+Notify.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+Notify.BackgroundTransparency = 1.000
+Notify.Position = UDim2.new(1, -267, 1, -103)
+Notify.Size = UDim2.new(0, 267, 0, 103)
+
+UICorner_28.CornerRadius = UDim.new(0, 2)
+UICorner_28.Parent = Notify
+
+Title.Name = "Title"
+Title.Parent = Notify
+Title.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(0, 239, 0, 28)
+Title.Font = Enum.Font.Sarpanch
+Title.Text = "Title"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextTransparency = 1.000
+Title.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 2)
+UICorner_29.Parent = Title
+
+ImageLabel_6.Parent = Title
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.Size = UDim2.new(0, 29, 0, 28)
+ImageLabel_6.Image = "rbxassetid://10159275099"
+ImageLabel_6.ImageTransparency = 1.000
+
+Desc.Name = "Desc"
+Desc.Parent = Notify
+Desc.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+Desc.BackgroundTransparency = 1.000
+Desc.Position = UDim2.new(0.0524344556, 0, 0.475728124, 0)
+Desc.Size = UDim2.new(0, 239, 0, 38)
+Desc.Font = Enum.Font.Sarpanch
+Desc.Text = "Text"
+Desc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Desc.TextScaled = true
+Desc.TextSize = 14.000
+Desc.TextTransparency = 1.000
+Desc.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 2)
+UICorner_30.Parent = Desc
+
+Exit_2.Name = "Exit"
+Exit_2.Parent = Notify
+Exit_2.BackgroundColor3 = Color3.fromRGB(255, 131, 43)
+Exit_2.BackgroundTransparency = 1.000
+Exit_2.Position = UDim2.new(0.898363769, 0, 0, 0)
+Exit_2.Size = UDim2.new(0, 27, 0, 28)
+Exit_2.Font = Enum.Font.Sarpanch
+Exit_2.Text = "X"
+Exit_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit_2.TextScaled = true
+Exit_2.TextSize = 14.000
+Exit_2.TextTransparency = 1.000
+Exit_2.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 2)
+UICorner_31.Parent = Exit_2
+
+Alphabet.Name = "Alphabet"
+Alphabet.Parent = Chatart
+Alphabet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Alphabet.Size = UDim2.new(0, 100, 0, 100)
+Alphabet.Visible = false
+
+A.Name = "A"
+A.Parent = Alphabet
+A.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+A.Size = UDim2.new(0, 200, 0, 50)
+A.Font = Enum.Font.SourceSans
+A.Text = ""
+A.TextColor3 = Color3.fromRGB(0, 0, 0)
+A.TextSize = 14.000
+
+B.Name = "B"
+B.Parent = Alphabet
+B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B.Size = UDim2.new(0, 200, 0, 50)
+B.Font = Enum.Font.SourceSans
+B.TextColor3 = Color3.fromRGB(0, 0, 0)
+B.TextSize = 14.000
+
+C.Name = "C"
+C.Parent = Alphabet
+C.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+C.Size = UDim2.new(0, 200, 0, 50)
+C.Font = Enum.Font.SourceSans
+C.TextColor3 = Color3.fromRGB(0, 0, 0)
+C.TextSize = 14.000
+
+D.Name = "D"
+D.Parent = Alphabet
+D.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+D.Size = UDim2.new(0, 200, 0, 50)
+D.Font = Enum.Font.SourceSans
+D.TextColor3 = Color3.fromRGB(0, 0, 0)
+D.TextSize = 14.000
+
+E.Name = "E"
+E.Parent = Alphabet
+E.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+E.Size = UDim2.new(0, 200, 0, 50)
+E.Font = Enum.Font.SourceSans
+E.TextColor3 = Color3.fromRGB(0, 0, 0)
+E.TextSize = 14.000
+
+F.Name = "F"
+F.Parent = Alphabet
+F.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+F.Size = UDim2.new(0, 200, 0, 50)
+F.Font = Enum.Font.SourceSans
+F.TextColor3 = Color3.fromRGB(0, 0, 0)
+F.TextSize = 14.000
+
+G.Name = "G"
+G.Parent = Alphabet
+G.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G.Size = UDim2.new(0, 200, 0, 50)
+G.Font = Enum.Font.SourceSans
+G.TextColor3 = Color3.fromRGB(0, 0, 0)
+G.TextSize = 14.000
+
+H.Name = "H"
+H.Parent = Alphabet
+H.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+H.Size = UDim2.new(0, 200, 0, 50)
+H.Font = Enum.Font.SourceSans
+H.TextColor3 = Color3.fromRGB(0, 0, 0)
+H.TextSize = 14.000
+
+I.Name = "I"
+I.Parent = Alphabet
+I.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+I.Size = UDim2.new(0, 200, 0, 50)
+I.Font = Enum.Font.SourceSans
+I.TextColor3 = Color3.fromRGB(0, 0, 0)
+I.TextSize = 14.000
+
+J.Name = "J"
+J.Parent = Alphabet
+J.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+J.Size = UDim2.new(0, 200, 0, 50)
+J.Font = Enum.Font.SourceSans
+J.TextColor3 = Color3.fromRGB(0, 0, 0)
+J.TextSize = 14.000
+
+K.Name = "K"
+K.Parent = Alphabet
+K.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+K.Size = UDim2.new(0, 200, 0, 50)
+K.Font = Enum.Font.SourceSans
+K.TextColor3 = Color3.fromRGB(0, 0, 0)
+K.TextSize = 14.000
+
+L.Name = "L"
+L.Parent = Alphabet
+L.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+L.Size = UDim2.new(0, 200, 0, 50)
+L.Font = Enum.Font.SourceSans
+L.TextColor3 = Color3.fromRGB(0, 0, 0)
+L.TextSize = 14.000
+
+M.Name = "M"
+M.Parent = Alphabet
+M.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+M.Size = UDim2.new(0, 200, 0, 50)
+M.Font = Enum.Font.SourceSans
+M.TextColor3 = Color3.fromRGB(0, 0, 0)
+M.TextSize = 14.000
+
+O.Name = "O"
+O.Parent = Alphabet
+O.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+O.Size = UDim2.new(0, 200, 0, 50)
+O.Font = Enum.Font.SourceSans
+O.TextColor3 = Color3.fromRGB(0, 0, 0)
+O.TextSize = 14.000
+
+P.Name = "P"
+P.Parent = Alphabet
+P.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+P.Size = UDim2.new(0, 200, 0, 50)
+P.Font = Enum.Font.SourceSans
+P.TextColor3 = Color3.fromRGB(0, 0, 0)
+P.TextSize = 14.000
+
+Q.Name = "Q"
+Q.Parent = Alphabet
+Q.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Q.Size = UDim2.new(0, 200, 0, 50)
+Q.Font = Enum.Font.SourceSans
+Q.TextColor3 = Color3.fromRGB(0, 0, 0)
+Q.TextSize = 14.000
+
+R.Name = "R"
+R.Parent = Alphabet
+R.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R.Size = UDim2.new(0, 200, 0, 50)
+R.Font = Enum.Font.SourceSans
+R.TextColor3 = Color3.fromRGB(0, 0, 0)
+R.TextSize = 14.000
+
+S.Name = "S"
+S.Parent = Alphabet
+S.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+S.Size = UDim2.new(0, 200, 0, 50)
+S.Font = Enum.Font.SourceSans
+S.TextColor3 = Color3.fromRGB(0, 0, 0)
+S.TextSize = 14.000
+
+T.Name = "T"
+T.Parent = Alphabet
+T.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+T.Size = UDim2.new(0, 200, 0, 50)
+T.Font = Enum.Font.SourceSans
+T.TextColor3 = Color3.fromRGB(0, 0, 0)
+T.TextSize = 14.000
+
+U.Name = "U"
+U.Parent = Alphabet
+U.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+U.Size = UDim2.new(0, 200, 0, 50)
+U.Font = Enum.Font.SourceSans
+U.TextColor3 = Color3.fromRGB(0, 0, 0)
+U.TextSize = 14.000
+
+V.Name = "V"
+V.Parent = Alphabet
+V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+V.Size = UDim2.new(0, 200, 0, 50)
+V.Font = Enum.Font.SourceSans
+V.TextColor3 = Color3.fromRGB(0, 0, 0)
+V.TextSize = 14.000
+
+W.Name = "W"
+W.Parent = Alphabet
+W.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+W.Size = UDim2.new(0, 200, 0, 50)
+W.Font = Enum.Font.SourceSans
+W.TextColor3 = Color3.fromRGB(0, 0, 0)
+W.TextSize = 14.000
+
+X.Name = "X"
+X.Parent = Alphabet
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.Size = UDim2.new(0, 200, 0, 50)
+X.Font = Enum.Font.SourceSans
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextSize = 14.000
+
+Y.Name = "Y"
+Y.Parent = Alphabet
+Y.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Y.Size = UDim2.new(0, 200, 0, 50)
+Y.Font = Enum.Font.SourceSans
+Y.TextColor3 = Color3.fromRGB(0, 0, 0)
+Y.TextSize = 14.000
+
+Z.Name = "Z"
+Z.Parent = Alphabet
+Z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Z.Size = UDim2.new(0, 200, 0, 50)
+Z.Font = Enum.Font.SourceSans
+Z.TextColor3 = Color3.fromRGB(0, 0, 0)
+Z.TextSize = 14.000
+
+-- Scripts:
+
+local function AXMPJI_fake_script() -- TextLabel.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(AXMPJI_fake_script)()
+local function IIMH_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+		end)
+end
+coroutine.wrap(IIMH_fake_script)()
+local function FBEN_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local prefix = ""..script.Parent.Parent.Key
+	
+	
+	
+		local letters = {
+			["a"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["b"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["c"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["d"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["e"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["f"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["g"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["h"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["i"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["j"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["k"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["l"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["m"] = {
+				"⬛⬛⬛⬛⬛",
+				"🔴⬛⬛⬛🔴",
+				"🔴🔴⬛🔴🔴",
+				"🔴⬛🔴⬛🔴",
+				"🔴⬛⬛⬛🔴",
+				"🔴⬛⬛⬛🔴",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["n"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["o"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["p"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["q"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["r"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴🔴⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["s"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["t"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["u"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["v"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["w"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["x"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["y"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛🔴⬛🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["z"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛🔴⬛",
+				"⬛⬛🔴⬛⬛",
+				"⬛🔴⬛⬛⬛",
+				"⬛🔴🔴🔴⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			[" "] = {
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+			}
+		}
+	
+	
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldNameCall = gmt.__namecall
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = 'Prefix your message with '.. prefix,
+			Text = 'Made by LabGuy94 But remixed with oreo :]',
+			Icon = '',
+			Duration = 5,
+		})
+	
+		gmt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			if tostring(self) == "SayMessageRequest" and tostring(getnamecallmethod()) == "FireServer" then
+				local msg = args[1]
+				if string.sub(msg,1,string.len(prefix)) == prefix then
+					local message = string.sub(msg,string.len(prefix)+1)
+					local final = {"","","","","","",""}
+					for i = 1, #message do
+						local l = message:sub(i,i)
+						for x, line in pairs(letters[string.lower(l)]) do
+							final[x] = final[x] .. line
+						end
+					end
+					for _, v in pairs(final) do
+						game:GetService("ReplicatedStorage")["DefaultChatSystemChatEvents"].SayMessageRequest:FireServer(v, "All")
+					end
+					return wait(9e9)
+				end
+			end
+			return oldNameCall(self, ...)
+		end)
+	end)
+end
+coroutine.wrap(FBEN_fake_script)()
+local function UILVPZC_fake_script() -- Button_2.LocalScript 
+	local script = Instance.new('LocalScript', Button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local prefix = ""..script.Parent.Parent.Key
+	
+	
+	
+		local letters = {
+			["a"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["b"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["c"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["d"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["e"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["f"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["g"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["h"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["i"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["j"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["k"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["l"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["m"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬜⬛⬛⬛⬜",
+				"⬜⬜⬛⬜⬜",
+				"⬜⬛⬜⬛⬜",
+				"⬜⬛⬛⬛⬜",
+				"⬜⬛⬛⬛⬜",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["n"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["o"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["p"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["q"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["r"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬜⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["s"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["t"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["u"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["v"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["w"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["x"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["y"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬜⬛⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["z"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬜⬛",
+				"⬛⬛⬜⬛⬛",
+				"⬛⬜⬛⬛⬛",
+				"⬛⬜⬜⬜⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			[" "] = {
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+			}
+		}
+	
+	
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldNameCall = gmt.__namecall
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = 'Prefix your message with '.. prefix,
+			Text = 'Made by LabGuy94 But remixed with oreo :]',
+			Icon = '',
+			Duration = 5,
+		})
+	
+		gmt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			if tostring(self) == "SayMessageRequest" and tostring(getnamecallmethod()) == "FireServer" then
+				local msg = args[1]
+				if string.sub(msg,1,string.len(prefix)) == prefix then
+					local message = string.sub(msg,string.len(prefix)+1)
+					local final = {"","","","","","",""}
+					for i = 1, #message do
+						local l = message:sub(i,i)
+						for x, line in pairs(letters[string.lower(l)]) do
+							final[x] = final[x] .. line
+						end
+					end
+					for _, v in pairs(final) do
+						game:GetService("ReplicatedStorage")["DefaultChatSystemChatEvents"].SayMessageRequest:FireServer(v, "All")
+					end
+					return wait(9e9)
+				end
+			end
+			return oldNameCall(self, ...)
+		end)
+	end)
+end
+coroutine.wrap(UILVPZC_fake_script)()
+local function TXIWH_fake_script() -- Button_3.LocalScript 
+	local script = Instance.new('LocalScript', Button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local prefix = ""..script.Parent.Parent.Key
+	
+	
+	
+		local letters = {
+			["a"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["b"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["c"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["d"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["e"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["f"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["g"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["h"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["i"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["j"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["k"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["l"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["m"] = {
+				"⬛⬛⬛⬛⬛",
+				"🟥⬛⬛⬛🟥",
+				"🟥🟥⬛🟥🟥",
+				"🟥⬛🟥⬛🟥",
+				"🟥⬛⬛⬛🟥",
+				"🟥⬛⬛⬛🟥",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["n"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["o"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["p"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["q"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["r"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["s"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["t"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["u"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["v"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["w"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["x"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["y"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["z"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			[" "] = {
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+			}
+		}
+	
+	
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldNameCall = gmt.__namecall
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = 'Prefix your message with '.. prefix,
+			Text = 'Made by LabGuy94 But remixed with oreo :]',
+			Icon = '',
+			Duration = 5,
+		})
+	
+		gmt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			if tostring(self) == "SayMessageRequest" and tostring(getnamecallmethod()) == "FireServer" then
+				local msg = args[1]
+				if string.sub(msg,1,string.len(prefix)) == prefix then
+					local message = string.sub(msg,string.len(prefix)+1)
+					local final = {"","","","","","",""}
+					for i = 1, #message do
+						local l = message:sub(i,i)
+						for x, line in pairs(letters[string.lower(l)]) do
+							final[x] = final[x] .. line
+						end
+					end
+					for _, v in pairs(final) do
+						game:GetService("ReplicatedStorage")["DefaultChatSystemChatEvents"].SayMessageRequest:FireServer(v, "All")
+					end
+					return wait(9e9)
+				end
+			end
+			return oldNameCall(self, ...)
+		end)
+	end)
+end
+coroutine.wrap(TXIWH_fake_script)()
+local function TTSH_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local prefix = ""..script.Parent.Parent.Key
+	
+	
+	
+		local letters = {
+			["a"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["b"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["c"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["d"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["e"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["f"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["g"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["h"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["i"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["j"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["k"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["l"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["m"] = {
+				"⬛⬛⬛⬛⬛",
+				"🟥⬛⬛⬛🟥",
+				"🟥🟥⬛🟥🟥",
+				"🟥⬛🟥⬛🟥",
+				"🟥⬛⬛⬛🟥",
+				"🟥⬛⬛⬛🟥",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["n"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["o"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["p"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["q"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["r"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["s"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["t"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["u"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["v"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛", 
+			},
+			["w"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["x"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["y"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛🟥⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			["z"] = {
+				"⬛⬛⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛🟥⬛",
+				"⬛⬛🟥⬛⬛",
+				"⬛🟥⬛⬛⬛",
+				"⬛🟥🟥🟥⬛",
+				"⬛⬛⬛⬛⬛",
+			},
+			[" "] = {
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+				"⬛⬛⬛⬛",
+			}
+		}
+	
+	
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldNameCall = gmt.__namecall
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = 'Prefix your message with '.. prefix,
+			Text = 'Made by LabGuy94 But remixed with oreo :]',
+			Icon = '',
+			Duration = 5,
+		})
+	
+		gmt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			if tostring(self) == "SayMessageRequest" and tostring(getnamecallmethod()) == "FireServer" then
+				local msg = args[1]
+				if string.sub(msg,1,string.len(prefix)) == prefix then
+					local message = string.sub(msg,string.len(prefix)+1)
+					local final = {"","","","","","",""}
+					for i = 1, #message do
+						local l = message:sub(i,i)
+						for x, line in pairs(letters[string.lower(l)]) do
+							final[x] = final[x] .. line
+						end
+					end
+					for _, v in pairs(final) do
+						game:GetService("ReplicatedStorage")["DefaultChatSystemChatEvents"].SayMessageRequest:FireServer(v, "All")
+					end
+					return wait(9e9)
+				end
+			end
+			return oldNameCall(self, ...)
+		end)
+	end)
+end
+coroutine.wrap(TTSH_fake_script)()
+local function ALCNTOB_fake_script() -- Button_5.LocalScript 
+	local script = Instance.new('LocalScript', Button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.ImageLabel.Image = "rbxassetid://"..script.Parent.Parent.Image.Text
+		script.Parent.Parent.Parent.Parent.ImageLabel.ImageTransparency = 0.7
+	end)
+end
+coroutine.wrap(ALCNTOB_fake_script)()
+local function GPYZN_fake_script() -- ExecutableSkins_2.LocalScript 
+	local script = Instance.new('LocalScript', ExecutableSkins_2)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Section.Credits.Visible = false
+		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
+		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
+		wait(0.01)
+		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
+	end)
+end
+coroutine.wrap(GPYZN_fake_script)()
+local function XSTQ_fake_script() -- Backgrounds_2.LocalScript 
+	local script = Instance.new('LocalScript', Backgrounds_2)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Section.Credits.Visible = false
+		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
+		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
+		wait(0.01)
+		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
+	end)
+end
+coroutine.wrap(XSTQ_fake_script)()
+local function ZGPJPAZ_fake_script() -- Credits_2.LocalScript 
+	local script = Instance.new('LocalScript', Credits_2)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Section.Credits.Visible = false
+		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
+		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
+		wait(0.01)
+		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
+	end)
+end
+coroutine.wrap(ZGPJPAZ_fake_script)()
+local function ZRCVMO_fake_script() -- TextLabel_6.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(ZRCVMO_fake_script)()
+local function RDCOGK_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local TweenService = game:GetService("TweenService")
+		local PartTween = TweenService:Create(script.Parent.Parent, TweenInfo.new(), {BackgroundTransparency = 1})
+		PartTween:Play()
+		wait(1)
+		script.Parent.Parent.Parent:Destroy()
+		end)
+end
+coroutine.wrap(RDCOGK_fake_script)()
+local function OXLJDAT_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Key.Text == "cookie1" then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.MainFrame.Visible = true
+			--[[
+			Notifacation Area
+			--]]
+			local Title = "Welcome"
+			local Desc = "Welcome to Chat Art Remake"
+			local NewNotify = script.Parent.Parent.Parent.Notify:Clone()
+			NewNotify.Parent = script.Parent.Parent.Parent.Notifications
+			NewNotify.Title.Text = ""..Title
+			NewNotify.Desc.Text = ""..Desc
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			wait(0.1)
+			NewNotify.Sound:Play()
+			wait(4)
+			local TweenService2 = game:GetService("TweenService")
+			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween2:Play()
+			wait(1)
+			NewNotify:Destroy()
+			--[[
+			End of Notification Area
+			--]]
+		else
+					--[[
+			Notifacation Area
+			--]]
+			local Title = "Error"
+			local Desc = "Incorrect key"
+			local NewNotify = script.Parent.Parent.Parent.Notify:Clone()
+			NewNotify.Parent = script.Parent.Parent.Parent.Notifications
+			NewNotify.Title.Text = ""..Title
+			NewNotify.Desc.Text = ""..Desc
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			wait(0.1)
+			NewNotify.Sound:Play()
+			wait(3)
+			local TweenService2 = game:GetService("TweenService")
+			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween2:Play()
+			wait(1)
+			NewNotify:Destroy()
+			--[[
+			End of Notification Area
+			--]]
+		end
+	end)
+end
+coroutine.wrap(OXLJDAT_fake_script)()
+local function PXOWWY_fake_script() -- ImageLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_5)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	frame.Image = content
+end
+coroutine.wrap(PXOWWY_fake_script)()
+local function SBPBI_fake_script() -- ImageLabel_6.Match 
+	local script = Instance.new('LocalScript', ImageLabel_6)
+
+	while true do
+		wait(0.01)
+		script.Parent.ImageTransparency = script.Parent.Parent.BackgroundTransparency
+	end
+end
+coroutine.wrap(SBPBI_fake_script)()
+local function BRQA_fake_script() -- Title.Match 
+	local script = Instance.new('LocalScript', Title)
+
+	while true do
+		wait(0.01)
+		script.Parent.BackgroundTransparency = script.Parent.Parent.BackgroundTransparency
+		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
+	end
+end
+coroutine.wrap(BRQA_fake_script)()
+local function LUMYAP_fake_script() -- Desc.Match 
+	local script = Instance.new('LocalScript', Desc)
+
+	while true do
+		wait(0.01)
+		script.Parent.BackgroundTransparency = script.Parent.Parent.BackgroundTransparency
+		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
+	end
+end
+coroutine.wrap(LUMYAP_fake_script)()
+local function FMVIRO_fake_script() -- Notify.LocalScript 
+	local script = Instance.new('LocalScript', Notify)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+		end)
+end
+coroutine.wrap(FMVIRO_fake_script)()
+-- Exit_2.LocalScript is disabled.
+local function ESWNLJK_fake_script() -- Exit_2.Match 
+	local script = Instance.new('LocalScript', Exit_2)
+
+	while true do
+		wait(0.01)
+		script.Parent.BackgroundTransparency = script.Parent.Parent.BackgroundTransparency
+		local Val = 0
+		Val = script.Parent.Parent.BackgroundTransparency
+		Val = Val+0.5
+		script.Parent.TextTransparency = Val
+	end
+end
+coroutine.wrap(ESWNLJK_fake_script)()
+local function VOWVZPW_fake_script() -- Chatart.LocalScript 
+	local script = Instance.new('LocalScript', Chatart)
+
+	wait(0.01)
+	script.Parent.MainFrame.Visible = false
+	script.Parent.Verifacation.Visible = true
+end
+coroutine.wrap(VOWVZPW_fake_script)()
