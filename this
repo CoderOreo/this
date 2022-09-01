@@ -775,7 +775,7 @@ Z.TextSize = 14.000
 
 -- Scripts:
 
-local function LFJRWOG_fake_script() -- TextLabel.Smooth GUI Dragging 
+local function GMXK_fake_script() -- TextLabel.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -832,16 +832,16 @@ local function LFJRWOG_fake_script() -- TextLabel.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(LFJRWOG_fake_script)()
-local function IONLIY_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(GMXK_fake_script)()
+local function YZYH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(IONLIY_fake_script)()
-local function NLUMLLJ_fake_script() -- Button.LocalScript 
+coroutine.wrap(YZYH_fake_script)()
+local function XNRJMJ_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1130,8 +1130,8 @@ local function NLUMLLJ_fake_script() -- Button.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NLUMLLJ_fake_script)()
-local function EYINZFA_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(XNRJMJ_fake_script)()
+local function BPZU_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1420,8 +1420,8 @@ local function EYINZFA_fake_script() -- Button_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(EYINZFA_fake_script)()
-local function HOUD_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(BPZU_fake_script)()
+local function LNPV_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1710,8 +1710,8 @@ local function HOUD_fake_script() -- Button_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(HOUD_fake_script)()
-local function SBWOUOZ_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(LNPV_fake_script)()
+local function NNDO_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2000,8 +2000,8 @@ local function SBWOUOZ_fake_script() -- Button_4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SBWOUOZ_fake_script)()
-local function UCTBRUG_fake_script() -- ExecutableSkins_2.LocalScript 
+coroutine.wrap(NNDO_fake_script)()
+local function YAUFGRI_fake_script() -- ExecutableSkins_2.LocalScript 
 	local script = Instance.new('LocalScript', ExecutableSkins_2)
 
 	
@@ -2013,8 +2013,8 @@ local function UCTBRUG_fake_script() -- ExecutableSkins_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(UCTBRUG_fake_script)()
-local function NDPVM_fake_script() -- Credits_2.LocalScript 
+coroutine.wrap(YAUFGRI_fake_script)()
+local function LKNA_fake_script() -- Credits_2.LocalScript 
 	local script = Instance.new('LocalScript', Credits_2)
 
 	
@@ -2026,8 +2026,8 @@ local function NDPVM_fake_script() -- Credits_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(NDPVM_fake_script)()
-local function QQMOOSI_fake_script() -- TextLabel_6.Smooth GUI Dragging 
+coroutine.wrap(LKNA_fake_script)()
+local function MOZPUS_fake_script() -- TextLabel_6.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2084,8 +2084,8 @@ local function QQMOOSI_fake_script() -- TextLabel_6.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(QQMOOSI_fake_script)()
-local function GMWO_fake_script() -- Exit.LocalScript 
+coroutine.wrap(MOZPUS_fake_script)()
+local function XSAP_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2096,8 +2096,8 @@ local function GMWO_fake_script() -- Exit.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(GMWO_fake_script)()
-local function BIIVD_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XSAP_fake_script)()
+local function IGHXXI_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2116,10 +2116,46 @@ local function BIIVD_fake_script() -- TextButton_2.LocalScript
 			local TweenService = game:GetService("TweenService")
 			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
 			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {TextTransparency = 0.5})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {TextTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {TextTransparency = 0})
+			PartTween:Play()
 			wait(4)
 			local TweenService2 = game:GetService("TweenService")
 			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
 			PartTween2:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
 			wait(1)
 			NewNotify:Destroy()
 			--[[
@@ -2138,10 +2174,46 @@ local function BIIVD_fake_script() -- TextButton_2.LocalScript
 			local TweenService = game:GetService("TweenService")
 			local PartTween = TweenService:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 0})
 			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {TextTransparency = 0.5})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {TextTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {BackgroundTransparency = 0})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {TextTransparency = 0})
+			PartTween:Play()
 			wait(2.4)
 			local TweenService2 = game:GetService("TweenService")
 			local PartTween2 = TweenService2:Create(NewNotify, TweenInfo.new(), {BackgroundTransparency = 1})
 			PartTween2:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Exit, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Desc, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {BackgroundTransparency = 1})
+			PartTween:Play()
+			local TweenService = game:GetService("TweenService")
+			local PartTween = TweenService:Create(NewNotify.Title, TweenInfo.new(), {TextTransparency = 1})
+			PartTween:Play()
 			wait(1)
 			NewNotify:Destroy()
 			--[[
@@ -2150,8 +2222,8 @@ local function BIIVD_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BIIVD_fake_script)()
-local function OLPIX_fake_script() -- ImageLabel_5.LocalScript 
+coroutine.wrap(IGHXXI_fake_script)()
+local function KTPAOH_fake_script() -- ImageLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_5)
 
 	local frame = script.Parent
@@ -2169,8 +2241,8 @@ local function OLPIX_fake_script() -- ImageLabel_5.LocalScript
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	frame.Image = content
 end
-coroutine.wrap(OLPIX_fake_script)()
-local function ITQHIC_fake_script() -- ImageLabel_6.Match 
+coroutine.wrap(KTPAOH_fake_script)()
+local function MASS_fake_script() -- ImageLabel_6.Match 
 	local script = Instance.new('LocalScript', ImageLabel_6)
 
 	while true do
@@ -2178,8 +2250,8 @@ local function ITQHIC_fake_script() -- ImageLabel_6.Match
 		script.Parent.ImageTransparency = script.Parent.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(ITQHIC_fake_script)()
-local function DTDEY_fake_script() -- Title.Match 
+coroutine.wrap(MASS_fake_script)()
+local function CEAKA_fake_script() -- Title.Match 
 	local script = Instance.new('LocalScript', Title)
 
 	while true do
@@ -2188,8 +2260,8 @@ local function DTDEY_fake_script() -- Title.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(DTDEY_fake_script)()
-local function HHGJKD_fake_script() -- Desc.Match 
+coroutine.wrap(CEAKA_fake_script)()
+local function JXOJXZ_fake_script() -- Desc.Match 
 	local script = Instance.new('LocalScript', Desc)
 
 	while true do
@@ -2198,17 +2270,17 @@ local function HHGJKD_fake_script() -- Desc.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(HHGJKD_fake_script)()
-local function TECWEC_fake_script() -- Notify.LocalScript 
+coroutine.wrap(JXOJXZ_fake_script)()
+local function FKXUSPP_fake_script() -- Notify.LocalScript 
 	local script = Instance.new('LocalScript', Notify)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(TECWEC_fake_script)()
+coroutine.wrap(FKXUSPP_fake_script)()
 -- Exit_2.LocalScript is disabled.
-local function AQFHOS_fake_script() -- Exit_2.Match 
+local function XRLHLP_fake_script() -- Exit_2.Match 
 	local script = Instance.new('LocalScript', Exit_2)
 
 	while true do
@@ -2220,12 +2292,12 @@ local function AQFHOS_fake_script() -- Exit_2.Match
 		script.Parent.TextTransparency = Val
 	end
 end
-coroutine.wrap(AQFHOS_fake_script)()
-local function OLHG_fake_script() -- Chatart.LocalScript 
+coroutine.wrap(XRLHLP_fake_script)()
+local function DGVRQ_fake_script() -- Chatart.LocalScript 
 	local script = Instance.new('LocalScript', Chatart)
 
 	wait(0.1)
 	script.Parent.MainFrame.Visible = false
 	script.Parent.Verifacation.Visible = true
 end
-coroutine.wrap(OLHG_fake_script)()
+coroutine.wrap(DGVRQ_fake_script)()
