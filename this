@@ -136,10 +136,6 @@ TextLabel.TextWrapped = true
 UICorner_2.CornerRadius = UDim.new(0, 2)
 UICorner_2.Parent = TextLabel
 
-Sound.Volume = 1.5
-Sound.PlaybackSpeed = 0.9
-Sound.SoundId = "rbxassetid://8784885431"
-Sound.Parent = Notify
 
 ImageLabel_2.Parent = TextLabel
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -779,6 +775,11 @@ Z.TextColor3 = Color3.fromRGB(0, 0, 0)
 Z.TextSize = 14.000
 
 -- Scripts:
+Sound.Volume = 1.5
+Sound.PlaybackSpeed = 0.9
+Sound.SoundId = "rbxassetid://8784885431"
+Sound.Parent = Notify
+Sound.Name = "Sound"
 
 local function JSJDG_fake_script() -- TextLabel.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel)
