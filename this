@@ -775,7 +775,7 @@ Z.TextSize = 14.000
 
 -- Scripts:
 
-local function GMXK_fake_script() -- TextLabel.Smooth GUI Dragging 
+local function BKPHSCA_fake_script() -- TextLabel.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -832,16 +832,16 @@ local function GMXK_fake_script() -- TextLabel.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(GMXK_fake_script)()
-local function YZYH_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(BKPHSCA_fake_script)()
+local function SMSZA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(YZYH_fake_script)()
-local function XNRJMJ_fake_script() -- Button.LocalScript 
+coroutine.wrap(SMSZA_fake_script)()
+local function FMUQ_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1130,8 +1130,8 @@ local function XNRJMJ_fake_script() -- Button.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(XNRJMJ_fake_script)()
-local function BPZU_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(FMUQ_fake_script)()
+local function RCNO_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1420,8 +1420,8 @@ local function BPZU_fake_script() -- Button_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(BPZU_fake_script)()
-local function LNPV_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(RCNO_fake_script)()
+local function QRYY_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1710,8 +1710,8 @@ local function LNPV_fake_script() -- Button_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LNPV_fake_script)()
-local function NNDO_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(QRYY_fake_script)()
+local function KLAEYC_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2000,34 +2000,32 @@ local function NNDO_fake_script() -- Button_4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(NNDO_fake_script)()
-local function YAUFGRI_fake_script() -- ExecutableSkins_2.LocalScript 
+coroutine.wrap(KLAEYC_fake_script)()
+local function BETV_fake_script() -- ExecutableSkins_2.LocalScript 
 	local script = Instance.new('LocalScript', ExecutableSkins_2)
 
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Section.Credits.Visible = false
 		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
-		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
 		wait(0.01)
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(YAUFGRI_fake_script)()
-local function LKNA_fake_script() -- Credits_2.LocalScript 
+coroutine.wrap(BETV_fake_script)()
+local function FTLFA_fake_script() -- Credits_2.LocalScript 
 	local script = Instance.new('LocalScript', Credits_2)
 
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Section.Credits.Visible = false
 		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
-		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
 		wait(0.01)
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(LKNA_fake_script)()
-local function MOZPUS_fake_script() -- TextLabel_6.Smooth GUI Dragging 
+coroutine.wrap(FTLFA_fake_script)()
+local function DKKFLD_fake_script() -- TextLabel_6.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2084,8 +2082,8 @@ local function MOZPUS_fake_script() -- TextLabel_6.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(MOZPUS_fake_script)()
-local function XSAP_fake_script() -- Exit.LocalScript 
+coroutine.wrap(DKKFLD_fake_script)()
+local function DEYF_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2096,8 +2094,8 @@ local function XSAP_fake_script() -- Exit.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(XSAP_fake_script)()
-local function IGHXXI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DEYF_fake_script)()
+local function YLKOFL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2222,8 +2220,8 @@ local function IGHXXI_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IGHXXI_fake_script)()
-local function KTPAOH_fake_script() -- ImageLabel_5.LocalScript 
+coroutine.wrap(YLKOFL_fake_script)()
+local function CLGLX_fake_script() -- ImageLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_5)
 
 	local frame = script.Parent
@@ -2241,8 +2239,8 @@ local function KTPAOH_fake_script() -- ImageLabel_5.LocalScript
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	frame.Image = content
 end
-coroutine.wrap(KTPAOH_fake_script)()
-local function MASS_fake_script() -- ImageLabel_6.Match 
+coroutine.wrap(CLGLX_fake_script)()
+local function QHGZOHB_fake_script() -- ImageLabel_6.Match 
 	local script = Instance.new('LocalScript', ImageLabel_6)
 
 	while true do
@@ -2250,8 +2248,8 @@ local function MASS_fake_script() -- ImageLabel_6.Match
 		script.Parent.ImageTransparency = script.Parent.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(MASS_fake_script)()
-local function CEAKA_fake_script() -- Title.Match 
+coroutine.wrap(QHGZOHB_fake_script)()
+local function IMBDJ_fake_script() -- Title.Match 
 	local script = Instance.new('LocalScript', Title)
 
 	while true do
@@ -2260,8 +2258,8 @@ local function CEAKA_fake_script() -- Title.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(CEAKA_fake_script)()
-local function JXOJXZ_fake_script() -- Desc.Match 
+coroutine.wrap(IMBDJ_fake_script)()
+local function VOMQ_fake_script() -- Desc.Match 
 	local script = Instance.new('LocalScript', Desc)
 
 	while true do
@@ -2270,17 +2268,17 @@ local function JXOJXZ_fake_script() -- Desc.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(JXOJXZ_fake_script)()
-local function FKXUSPP_fake_script() -- Notify.LocalScript 
+coroutine.wrap(VOMQ_fake_script)()
+local function NZZTSCS_fake_script() -- Notify.LocalScript 
 	local script = Instance.new('LocalScript', Notify)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(FKXUSPP_fake_script)()
+coroutine.wrap(NZZTSCS_fake_script)()
 -- Exit_2.LocalScript is disabled.
-local function XRLHLP_fake_script() -- Exit_2.Match 
+local function BFYZ_fake_script() -- Exit_2.Match 
 	local script = Instance.new('LocalScript', Exit_2)
 
 	while true do
@@ -2292,12 +2290,12 @@ local function XRLHLP_fake_script() -- Exit_2.Match
 		script.Parent.TextTransparency = Val
 	end
 end
-coroutine.wrap(XRLHLP_fake_script)()
-local function DGVRQ_fake_script() -- Chatart.LocalScript 
+coroutine.wrap(BFYZ_fake_script)()
+local function XWDBAA_fake_script() -- Chatart.LocalScript 
 	local script = Instance.new('LocalScript', Chatart)
 
 	wait(0.1)
 	script.Parent.MainFrame.Visible = false
 	script.Parent.Verifacation.Visible = true
 end
-coroutine.wrap(DGVRQ_fake_script)()
+coroutine.wrap(XWDBAA_fake_script)()
