@@ -98,7 +98,7 @@ local W = Instance.new("TextLabel")
 local X = Instance.new("TextLabel")
 local Y = Instance.new("TextLabel")
 local Z = Instance.new("TextLabel")
-
+local Sound = Instance.new("Sound")
 --Properties:
 
 Chatart.Name = "Chatart"
@@ -135,6 +135,11 @@ TextLabel.TextWrapped = true
 
 UICorner_2.CornerRadius = UDim.new(0, 2)
 UICorner_2.Parent = TextLabel
+
+Sound.Volume = 1.5
+Sound.PlaybackSpeed = 0.9
+Sound.SoundId = "rbxassetid://8784885431"
+Sound.Parent = Notify
 
 ImageLabel_2.Parent = TextLabel
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
