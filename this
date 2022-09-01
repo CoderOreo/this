@@ -28,58 +28,50 @@ local Button_3 = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local Button_4 = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local Backgrounds = Instance.new("ScrollingFrame")
-local UIListLayout_2 = Instance.new("UIListLayout")
-local Image = Instance.new("TextBox")
-local UICorner_11 = Instance.new("UICorner")
-local Button_5 = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
 local Credits = Instance.new("ScrollingFrame")
-local UIListLayout_3 = Instance.new("UIListLayout")
+local UIListLayout_2 = Instance.new("UIListLayout")
 local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local List = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
-local UIListLayout_4 = Instance.new("UIListLayout")
+local UICorner_14 = Instance.new("UICorner")
+local UIListLayout_3 = Instance.new("UIListLayout")
 local ExecutableSkins_2 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Backgrounds_2 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Credits_2 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Verifacation = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local TextLabel_6 = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local Exit = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local TextButton_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Key_2 = Instance.new("TextBox")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local Text = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Info = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local ImageLabel_5 = Instance.new("ImageLabel")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local Notifications = Instance.new("Frame")
-local UIListLayout_5 = Instance.new("UIListLayout")
+local UIListLayout_4 = Instance.new("UIListLayout")
 local Notify = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local ImageLabel_6 = Instance.new("ImageLabel")
 local Desc = Instance.new("TextLabel")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local Exit_2 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local Alphabet = Instance.new("Frame")
 local A = Instance.new("TextLabel")
 local B = Instance.new("TextLabel")
@@ -118,6 +110,7 @@ MainFrame.Parent = Chatart
 MainFrame.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
 MainFrame.Position = UDim2.new(0.5, -179, 0.5, -146)
 MainFrame.Size = UDim2.new(0, 358, 0, 293)
+MainFrame.Visible = false
 
 UICorner.CornerRadius = UDim.new(0, 2)
 UICorner.Parent = MainFrame
@@ -277,54 +270,6 @@ Button_4.TextWrapped = true
 UICorner_10.CornerRadius = UDim.new(0, 2)
 UICorner_10.Parent = Button_4
 
-Backgrounds.Name = "Backgrounds"
-Backgrounds.Parent = Section
-Backgrounds.Active = true
-Backgrounds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Backgrounds.BackgroundTransparency = 1.000
-Backgrounds.BorderSizePixel = 0
-Backgrounds.Position = UDim2.new(1, -271, 1, -265)
-Backgrounds.Size = UDim2.new(0, 271, 0, 265)
-Backgrounds.Visible = false
-Backgrounds.CanvasSize = UDim2.new(0, 0, 4, 0)
-Backgrounds.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
-Backgrounds.ScrollBarThickness = 8
-
-UIListLayout_2.Parent = Backgrounds
-UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-
-Image.Name = "Image"
-Image.Parent = Backgrounds
-Image.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
-Image.Position = UDim2.new(-0.0221402217, 0, 0.0792452842, 0)
-Image.Size = UDim2.new(0, 271, 0, 27)
-Image.ClearTextOnFocus = false
-Image.Font = Enum.Font.Sarpanch
-Image.PlaceholderText = "Enter your Image ID"
-Image.Text = ""
-Image.TextColor3 = Color3.fromRGB(255, 255, 255)
-Image.TextScaled = true
-Image.TextSize = 14.000
-Image.TextWrapped = true
-
-UICorner_11.CornerRadius = UDim.new(0, 2)
-UICorner_11.Parent = Image
-
-Button_5.Name = "Button"
-Button_5.Parent = Backgrounds
-Button_5.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
-Button_5.Position = UDim2.new(0, 0, 0.019811321, 0)
-Button_5.Size = UDim2.new(0, 271, 0, 21)
-Button_5.Font = Enum.Font.Sarpanch
-Button_5.Text = "Start!"
-Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Button_5.TextScaled = true
-Button_5.TextSize = 14.000
-Button_5.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0, 2)
-UICorner_12.Parent = Button_5
-
 Credits.Name = "Credits"
 Credits.Parent = Section
 Credits.Active = true
@@ -338,8 +283,8 @@ Credits.CanvasSize = UDim2.new(0, 0, 4, 0)
 Credits.HorizontalScrollBarInset = Enum.ScrollBarInset.Always
 Credits.ScrollBarThickness = 8
 
-UIListLayout_3.Parent = Credits
-UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Parent = Credits
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
 TextLabel_3.Parent = Credits
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
@@ -351,8 +296,8 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 2)
-UICorner_13.Parent = TextLabel_3
+UICorner_11.CornerRadius = UDim.new(0, 2)
+UICorner_11.Parent = TextLabel_3
 
 TextLabel_4.Parent = Credits
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
@@ -364,8 +309,8 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 2)
-UICorner_14.Parent = TextLabel_4
+UICorner_12.CornerRadius = UDim.new(0, 2)
+UICorner_12.Parent = TextLabel_4
 
 TextLabel_5.Parent = Credits
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
@@ -378,8 +323,8 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
-UICorner_15.CornerRadius = UDim.new(0, 2)
-UICorner_15.Parent = TextLabel_5
+UICorner_13.CornerRadius = UDim.new(0, 2)
+UICorner_13.Parent = TextLabel_5
 
 List.Name = "List"
 List.Parent = MainFrame
@@ -388,12 +333,12 @@ List.BackgroundTransparency = 1.000
 List.Position = UDim2.new(0, 0, 1, -265)
 List.Size = UDim2.new(0, 87, 0, 265)
 
-UICorner_16.CornerRadius = UDim.new(0, 2)
-UICorner_16.Parent = List
+UICorner_14.CornerRadius = UDim.new(0, 2)
+UICorner_14.Parent = List
 
-UIListLayout_4.Parent = List
-UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_4.Padding = UDim.new(0, 2)
+UIListLayout_3.Parent = List
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 2)
 
 ExecutableSkins_2.Name = "Executable Skins"
 ExecutableSkins_2.Parent = List
@@ -406,22 +351,8 @@ ExecutableSkins_2.TextScaled = true
 ExecutableSkins_2.TextSize = 14.000
 ExecutableSkins_2.TextWrapped = true
 
-UICorner_17.CornerRadius = UDim.new(0, 2)
-UICorner_17.Parent = ExecutableSkins_2
-
-Backgrounds_2.Name = "Backgrounds"
-Backgrounds_2.Parent = List
-Backgrounds_2.BackgroundColor3 = Color3.fromRGB(149, 149, 149)
-Backgrounds_2.Size = UDim2.new(0, 87, 0, 21)
-Backgrounds_2.Font = Enum.Font.Sarpanch
-Backgrounds_2.Text = "Backgrounds"
-Backgrounds_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Backgrounds_2.TextScaled = true
-Backgrounds_2.TextSize = 14.000
-Backgrounds_2.TextWrapped = true
-
-UICorner_18.CornerRadius = UDim.new(0, 2)
-UICorner_18.Parent = Backgrounds_2
+UICorner_15.CornerRadius = UDim.new(0, 2)
+UICorner_15.Parent = ExecutableSkins_2
 
 Credits_2.Name = "Credits"
 Credits_2.Parent = List
@@ -434,18 +365,17 @@ Credits_2.TextScaled = true
 Credits_2.TextSize = 14.000
 Credits_2.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 2)
-UICorner_19.Parent = Credits_2
+UICorner_16.CornerRadius = UDim.new(0, 2)
+UICorner_16.Parent = Credits_2
 
 Verifacation.Name = "Verifacation"
 Verifacation.Parent = Chatart
 Verifacation.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
 Verifacation.Position = UDim2.new(0.5, -179, 0.5, -146)
 Verifacation.Size = UDim2.new(0, 358, 0, 293)
-Verifacation.Visible = false
 
-UICorner_20.CornerRadius = UDim.new(0, 2)
-UICorner_20.Parent = Verifacation
+UICorner_17.CornerRadius = UDim.new(0, 2)
+UICorner_17.Parent = Verifacation
 
 TextLabel_6.Parent = Verifacation
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
@@ -457,8 +387,8 @@ TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
 TextLabel_6.TextWrapped = true
 
-UICorner_21.CornerRadius = UDim.new(0, 2)
-UICorner_21.Parent = TextLabel_6
+UICorner_18.CornerRadius = UDim.new(0, 2)
+UICorner_18.Parent = TextLabel_6
 
 ImageLabel_3.Parent = TextLabel_6
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -478,8 +408,8 @@ Exit.TextScaled = true
 Exit.TextSize = 14.000
 Exit.TextWrapped = true
 
-UICorner_22.CornerRadius = UDim.new(0, 2)
-UICorner_22.Parent = Exit
+UICorner_19.CornerRadius = UDim.new(0, 2)
+UICorner_19.Parent = Exit
 
 TextButton_2.Parent = Verifacation
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 131, 43)
@@ -492,8 +422,8 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-UICorner_23.CornerRadius = UDim.new(0, 2)
-UICorner_23.Parent = TextButton_2
+UICorner_20.CornerRadius = UDim.new(0, 2)
+UICorner_20.Parent = TextButton_2
 
 Key_2.Name = "Key"
 Key_2.Parent = Verifacation
@@ -508,8 +438,8 @@ Key_2.TextScaled = true
 Key_2.TextSize = 14.000
 Key_2.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 2)
-UICorner_24.Parent = Key_2
+UICorner_21.CornerRadius = UDim.new(0, 2)
+UICorner_21.Parent = Key_2
 
 Text.Name = "Text"
 Text.Parent = Verifacation
@@ -523,8 +453,8 @@ Text.TextScaled = true
 Text.TextSize = 14.000
 Text.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 2)
-UICorner_25.Parent = Text
+UICorner_22.CornerRadius = UDim.new(0, 2)
+UICorner_22.Parent = Text
 
 Info.Name = "Info"
 Info.Parent = Verifacation
@@ -538,8 +468,8 @@ Info.TextScaled = true
 Info.TextSize = 14.000
 Info.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 2)
-UICorner_26.Parent = Info
+UICorner_23.CornerRadius = UDim.new(0, 2)
+UICorner_23.Parent = Info
 
 ImageLabel_4.Parent = Info
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -555,8 +485,8 @@ ImageLabel_5.Position = UDim2.new(0.399441332, 0, 0.430034131, 0)
 ImageLabel_5.Size = UDim2.new(0, 63, 0, 57)
 ImageLabel_5.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_27.CornerRadius = UDim.new(0, 2)
-UICorner_27.Parent = ImageLabel_5
+UICorner_24.CornerRadius = UDim.new(0, 2)
+UICorner_24.Parent = ImageLabel_5
 
 Notifications.Name = "Notifications"
 Notifications.Parent = Chatart
@@ -565,9 +495,9 @@ Notifications.BackgroundTransparency = 1.000
 Notifications.Position = UDim2.new(1, -266, 1, -817)
 Notifications.Size = UDim2.new(0, 266, 0, 817)
 
-UIListLayout_5.Parent = Notifications
-UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_5.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout_4.Parent = Notifications
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Bottom
 
 Notify.Name = "Notify"
 Notify.Parent = Chatart
@@ -576,8 +506,8 @@ Notify.BackgroundTransparency = 1.000
 Notify.Position = UDim2.new(1, -267, 1, -103)
 Notify.Size = UDim2.new(0, 267, 0, 103)
 
-UICorner_28.CornerRadius = UDim.new(0, 2)
-UICorner_28.Parent = Notify
+UICorner_25.CornerRadius = UDim.new(0, 2)
+UICorner_25.Parent = Notify
 
 Title.Name = "Title"
 Title.Parent = Notify
@@ -592,8 +522,8 @@ Title.TextSize = 14.000
 Title.TextTransparency = 1.000
 Title.TextWrapped = true
 
-UICorner_29.CornerRadius = UDim.new(0, 2)
-UICorner_29.Parent = Title
+UICorner_26.CornerRadius = UDim.new(0, 2)
+UICorner_26.Parent = Title
 
 ImageLabel_6.Parent = Title
 ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -616,8 +546,8 @@ Desc.TextSize = 14.000
 Desc.TextTransparency = 1.000
 Desc.TextWrapped = true
 
-UICorner_30.CornerRadius = UDim.new(0, 2)
-UICorner_30.Parent = Desc
+UICorner_27.CornerRadius = UDim.new(0, 2)
+UICorner_27.Parent = Desc
 
 Exit_2.Name = "Exit"
 Exit_2.Parent = Notify
@@ -633,8 +563,8 @@ Exit_2.TextSize = 14.000
 Exit_2.TextTransparency = 1.000
 Exit_2.TextWrapped = true
 
-UICorner_31.CornerRadius = UDim.new(0, 2)
-UICorner_31.Parent = Exit_2
+UICorner_28.CornerRadius = UDim.new(0, 2)
+UICorner_28.Parent = Exit_2
 
 Alphabet.Name = "Alphabet"
 Alphabet.Parent = Chatart
@@ -845,7 +775,7 @@ Z.TextSize = 14.000
 
 -- Scripts:
 
-local function AXMPJI_fake_script() -- TextLabel.Smooth GUI Dragging 
+local function JSJDG_fake_script() -- TextLabel.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -902,20 +832,20 @@ local function AXMPJI_fake_script() -- TextLabel.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(AXMPJI_fake_script)()
-local function IIMH_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(JSJDG_fake_script)()
+local function JEDON_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(IIMH_fake_script)()
-local function FBEN_fake_script() -- Button.LocalScript 
+coroutine.wrap(JEDON_fake_script)()
+local function DGXKUO_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local prefix = ""..script.Parent.Parent.Key
+		local prefix = ""..script.Parent.Parent.Key.Text
 	
 	
 	
@@ -1200,12 +1130,12 @@ local function FBEN_fake_script() -- Button.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(FBEN_fake_script)()
-local function UILVPZC_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(DGXKUO_fake_script)()
+local function LYEY_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local prefix = ""..script.Parent.Parent.Key
+		local prefix = ""..script.Parent.Parent.Key.Text
 	
 	
 	
@@ -1490,12 +1420,12 @@ local function UILVPZC_fake_script() -- Button_2.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(UILVPZC_fake_script)()
-local function TXIWH_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(LYEY_fake_script)()
+local function KXNGTY_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local prefix = ""..script.Parent.Parent.Key
+		local prefix = ""..script.Parent.Parent.Key.Text
 	
 	
 	
@@ -1780,12 +1710,12 @@ local function TXIWH_fake_script() -- Button_3.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TXIWH_fake_script)()
-local function TTSH_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(KXNGTY_fake_script)()
+local function POUJ_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local prefix = ""..script.Parent.Parent.Key
+		local prefix = ""..script.Parent.Parent.Key.Text
 	
 	
 	
@@ -2070,17 +2000,8 @@ local function TTSH_fake_script() -- Button_4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(TTSH_fake_script)()
-local function ALCNTOB_fake_script() -- Button_5.LocalScript 
-	local script = Instance.new('LocalScript', Button_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Parent.ImageLabel.Image = "rbxassetid://"..script.Parent.Parent.Image.Text
-		script.Parent.Parent.Parent.Parent.ImageLabel.ImageTransparency = 0.7
-	end)
-end
-coroutine.wrap(ALCNTOB_fake_script)()
-local function GPYZN_fake_script() -- ExecutableSkins_2.LocalScript 
+coroutine.wrap(POUJ_fake_script)()
+local function IJNMJS_fake_script() -- ExecutableSkins_2.LocalScript 
 	local script = Instance.new('LocalScript', ExecutableSkins_2)
 
 	
@@ -2092,21 +2013,8 @@ local function GPYZN_fake_script() -- ExecutableSkins_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(GPYZN_fake_script)()
-local function XSTQ_fake_script() -- Backgrounds_2.LocalScript 
-	local script = Instance.new('LocalScript', Backgrounds_2)
-
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Section.Credits.Visible = false
-		script.Parent.Parent.Parent.Section["Executable Skins"].Visible = false
-		script.Parent.Parent.Parent.Section.Backgrounds.Visible = false
-		wait(0.01)
-		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
-	end)
-end
-coroutine.wrap(XSTQ_fake_script)()
-local function ZGPJPAZ_fake_script() -- Credits_2.LocalScript 
+coroutine.wrap(IJNMJS_fake_script)()
+local function MSPMOE_fake_script() -- Credits_2.LocalScript 
 	local script = Instance.new('LocalScript', Credits_2)
 
 	
@@ -2118,8 +2026,8 @@ local function ZGPJPAZ_fake_script() -- Credits_2.LocalScript
 		script.Parent.Parent.Parent.Section[""..script.Parent.Name].Visible = true
 	end)
 end
-coroutine.wrap(ZGPJPAZ_fake_script)()
-local function ZRCVMO_fake_script() -- TextLabel_6.Smooth GUI Dragging 
+coroutine.wrap(MSPMOE_fake_script)()
+local function FPER_fake_script() -- TextLabel_6.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2176,8 +2084,8 @@ local function ZRCVMO_fake_script() -- TextLabel_6.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(ZRCVMO_fake_script)()
-local function RDCOGK_fake_script() -- Exit.LocalScript 
+coroutine.wrap(FPER_fake_script)()
+local function KEPPBVJ_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2188,8 +2096,8 @@ local function RDCOGK_fake_script() -- Exit.LocalScript
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(RDCOGK_fake_script)()
-local function OXLJDAT_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(KEPPBVJ_fake_script)()
+local function NPCCIE_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2246,8 +2154,8 @@ local function OXLJDAT_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OXLJDAT_fake_script)()
-local function PXOWWY_fake_script() -- ImageLabel_5.LocalScript 
+coroutine.wrap(NPCCIE_fake_script)()
+local function VPTPKOL_fake_script() -- ImageLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_5)
 
 	local frame = script.Parent
@@ -2265,8 +2173,8 @@ local function PXOWWY_fake_script() -- ImageLabel_5.LocalScript
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	frame.Image = content
 end
-coroutine.wrap(PXOWWY_fake_script)()
-local function SBPBI_fake_script() -- ImageLabel_6.Match 
+coroutine.wrap(VPTPKOL_fake_script)()
+local function TEWBCS_fake_script() -- ImageLabel_6.Match 
 	local script = Instance.new('LocalScript', ImageLabel_6)
 
 	while true do
@@ -2274,8 +2182,8 @@ local function SBPBI_fake_script() -- ImageLabel_6.Match
 		script.Parent.ImageTransparency = script.Parent.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(SBPBI_fake_script)()
-local function BRQA_fake_script() -- Title.Match 
+coroutine.wrap(TEWBCS_fake_script)()
+local function TPFJY_fake_script() -- Title.Match 
 	local script = Instance.new('LocalScript', Title)
 
 	while true do
@@ -2284,8 +2192,8 @@ local function BRQA_fake_script() -- Title.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(BRQA_fake_script)()
-local function LUMYAP_fake_script() -- Desc.Match 
+coroutine.wrap(TPFJY_fake_script)()
+local function VQXDXWP_fake_script() -- Desc.Match 
 	local script = Instance.new('LocalScript', Desc)
 
 	while true do
@@ -2294,17 +2202,17 @@ local function LUMYAP_fake_script() -- Desc.Match
 		script.Parent.TextTransparency = script.Parent.BackgroundTransparency
 	end
 end
-coroutine.wrap(LUMYAP_fake_script)()
-local function FMVIRO_fake_script() -- Notify.LocalScript 
+coroutine.wrap(VQXDXWP_fake_script)()
+local function CSCWUNU_fake_script() -- Notify.LocalScript 
 	local script = Instance.new('LocalScript', Notify)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 		end)
 end
-coroutine.wrap(FMVIRO_fake_script)()
+coroutine.wrap(CSCWUNU_fake_script)()
 -- Exit_2.LocalScript is disabled.
-local function ESWNLJK_fake_script() -- Exit_2.Match 
+local function FKDZYH_fake_script() -- Exit_2.Match 
 	local script = Instance.new('LocalScript', Exit_2)
 
 	while true do
@@ -2316,12 +2224,12 @@ local function ESWNLJK_fake_script() -- Exit_2.Match
 		script.Parent.TextTransparency = Val
 	end
 end
-coroutine.wrap(ESWNLJK_fake_script)()
-local function VOWVZPW_fake_script() -- Chatart.LocalScript 
+coroutine.wrap(FKDZYH_fake_script)()
+local function NHOOWP_fake_script() -- Chatart.LocalScript 
 	local script = Instance.new('LocalScript', Chatart)
 
-	wait(0.01)
+	wait(0.1)
 	script.Parent.MainFrame.Visible = false
 	script.Parent.Verifacation.Visible = true
 end
-coroutine.wrap(VOWVZPW_fake_script)()
+coroutine.wrap(NHOOWP_fake_script)()
